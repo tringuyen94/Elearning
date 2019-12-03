@@ -1,0 +1,48 @@
+@import "./Helper/variables.scss";
+@import "./Helper/mixing.scss";
+
+.advantages {
+  text-align: center;
+  h2 {
+    @include h2;
+    span {
+      @include h2Span;
+    }
+  }
+  .advantages__item1 {
+    .advantages__image1 {
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+      }
+    }
+    .advantages__intro1 {
+      text-align: left;
+      margin: 40px 0;
+      h5 {
+        color: $orangeColor2;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 550;
+      }
+    }
+  }
+  .advantages__item2 {
+    .advantages__intro2 {
+      text-align: left;
+      h5 {
+        color: $orangeColor2;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 550;
+      }
+    }
+    .advantages__image2 {
+      img {
+        width: 500px;
+        height: 300px;
+      }
+    }
+  }
+}

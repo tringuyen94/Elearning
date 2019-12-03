@@ -1,0 +1,13 @@
+@mixin h2 {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 0;
+}
+@mixin h2Span {
+  letter-spacing: 2px;
+  color: #cc2105;
+}

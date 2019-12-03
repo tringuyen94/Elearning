@@ -1,0 +1,19 @@
+@import "./Helper/variables.scss";
+@import "./Helper/mixing.scss";
+
+.recent__feedback {
+  margin-top: 40px;
+  text-align: center;
+  background-attachment: fixed;
+  background: url(../images/bg3.jpg) no-repeat;
+  background-size: cover;
+  height: 600px;
+  h2 {
+    @include h2;
+    color: white;
+    padding: 100px 0;
+    span {
+      @include h2Span;
+    }
+  }
+}

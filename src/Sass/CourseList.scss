@@ -1,0 +1,14 @@
+@import "./Helper/variables.scss";
+@import "./Helper/mixing.scss";
+
+.course__list {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0 200px;
+  h2 {
+    @include h2;
+    span {
+      @include h2Span;
+    }
+  }
+}
